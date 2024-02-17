@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icon/partner.png" alt="logo" class="logo-img"/>
+				<h1 class="logo-title">AAN J.</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#service">SERVICE</a></li>						
+					<li><a href="mailto:juniantoaan87@gmail.com">CONTACT</a></li>	
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">SOCIAL MEDIA</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hellow! Aan Junian here!</p>
+				<p class="description">Nostalgia kenangan masa lalu tinggal di desa.</p>
+				<img src="assets/foto/aanj2.jpg" alt="aan junian foto 1" class="img_foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Jasa pembuatan website sesukamu</p>
+				<p class="description">Pesan aja dulu! semua bisa diatur</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Whatsapp Me</button>
+				</div>				
+			</div>
+			<div class="container">
+				<div class="card" id="service">
+					<div class="card-item">
+						<img class="icon" src="assets/icon/24-hours.png" alt="icon 1"/>
+						<p class="card-title">Siap melayani anda</p>
+						<p class="card-description">Menawarkan pelayanan non-stop 24 jam untuk anda.</p>
+					</div>
+					<div class="card-item">
+						<img class="icon" src="assets/icon/hot-deal.png" alt="icon 2"/>
+						<p class="card-title">Jasa dijamin murah</p>
+						<p class="card-description">Memberikan penawaran harga yang pantas dan benefit tinggi.</p>
+					</div>			
+					<div class="card-item">
+						<img class="icon" src="assets/icon/rating.png" alt="icon 3"/>
+						<p class="card-title">1004 Review</p>
+						<p class="card-description">Testimony mereka yang sudah menggunakan jasa kami.</p>
+					</div>								
+				</div>
+			</div>
+		</div>
+		<footer>
+				<p class="title">&copy; Aan Junianto 2024</p>	
+		</footer>
+	</body>
+	<script>
+		function redirInstagram() {
+			window.location.href="https://instagram.com/aanjunian";
+		}
+		function redirWhatsapp() {
+			window.location.href="https://wa.me/+6281285805626";
+		}
+	</script>
+	<!--  -->
+</html>
